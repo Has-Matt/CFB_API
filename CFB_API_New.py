@@ -8,7 +8,7 @@ import tkinter as tk
 # Code to Normalize Output
 
 year = '2019'
-seasontype = 'Postseason'
+seasontype = 'postseason'
 url= 'https://api.collegefootballdata.com/games?year=' + year + '&seasonType=' + seasontype
 
 response = requests.get(url)
